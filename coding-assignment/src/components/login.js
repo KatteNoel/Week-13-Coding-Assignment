@@ -13,6 +13,9 @@ export default class Login extends React.Component {
                 <br></br>
                 <input type="text" placeholder="Password"></input>
             </div>
+            <div className="card-footer">
+                <button className="btn btn-primary">Submit</button>
+            </div>
         </div>
         );
     }
