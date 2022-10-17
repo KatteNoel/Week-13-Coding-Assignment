@@ -6,7 +6,7 @@ export default class Page extends React.Component {
     render() {
         return (
         <div className="container">
-            <div>
+            <div id="navbar-container">
                 <Navbar />
             </div>
             <div id="login-container">
